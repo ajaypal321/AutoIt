@@ -21,15 +21,10 @@ public class AutoitDemo {
 		
 			//	open the website
 		driver.get("https://www.filemail.com/share/upload-file");
-     //driver.get("https://altoconvertpdftojpg.com/");
      driver.findElement(By.id("addBtn")).click();
      //provide the path of autoit.exe file
-     
-    // String scriptpath="D:\\AutoIt\\AutoitFirst.exe";
    Thread.sleep(2000);
     Runtime.getRuntime().exec("C:/Users/ajay/Documents/auto/uploadfile1.exe");
-//     ProcessBuilder bulider= new ProcessBuilder(scriptpath);
-//     bulider.start();
 	}
 
 }
